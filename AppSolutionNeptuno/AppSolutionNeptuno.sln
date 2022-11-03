@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaEntidad", "CapaEntidad", "{8A1F0D4E-7A36-4C7D-8C52-6745282D5936}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaNegocio", "CapaNegocio", "{1A79E20E-D15E-41AE-AAF8-9DBBF2BE99CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaDatos", "CapaDatos", "{B3BEF060-9881-4756-A9F0-D71F68E05518}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaServicio", "CapaServicio", "{B9BD042E-D905-4CAC-9F05-A174F8D5C846}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaVista", "CapaVista", "{BF51E592-630F-4FAC-A623-328ED2674372}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaUtil", "CapaUtil", "{4DD95892-8786-4714-8D06-A0A15218FE60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neptuno.Libreria.Entity", "Neptuno.Libreria.Entity\Neptuno.Libreria.Entity.csproj", "{3D069C18-4D22-4EE7-B2D6-EA9BC4213B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neptuno.Libreria.Service", "Neptuno.Libreria.Service\Neptuno.Libreria.Service.csproj", "{CAEC8B9D-130A-4199-AB4C-25F3A93F4F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neptuno.Libreria.SqlServer", "Neptuno.Libreria.SqlServer\Neptuno.Libreria.SqlServer.csproj", "{3D7269ED-5812-4D18-A6D7-081C4D8DE637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neptuno.Libreria.DataAccess", "Neptuno.Libreria.DataAccess\Neptuno.Libreria.DataAccess.csproj", "{A40B366E-6500-4AFD-82F5-5143A52EC128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neptuno.Libreria.Business", "Neptuno.Libreria.Business\Neptuno.Libreria.Business.csproj", "{202718D5-0CED-4886-8072-419178C1C07E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neptuno.Libreria.View", "Neptuno.Libreria.View\Neptuno.Libreria.View.csproj", "{AF9C5CDE-95DD-4BCC-9CB7-97792FF25EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neptuno.Libreria.WebMVC", "Neptuno.Libreria.WebMVC\Neptuno.Libreria.WebMVC.csproj", "{52961DB9-478D-45E2-AE79-0E19311A103C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D069C18-4D22-4EE7-B2D6-EA9BC4213B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D069C18-4D22-4EE7-B2D6-EA9BC4213B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D069C18-4D22-4EE7-B2D6-EA9BC4213B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D069C18-4D22-4EE7-B2D6-EA9BC4213B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEC8B9D-130A-4199-AB4C-25F3A93F4F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEC8B9D-130A-4199-AB4C-25F3A93F4F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEC8B9D-130A-4199-AB4C-25F3A93F4F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEC8B9D-130A-4199-AB4C-25F3A93F4F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7269ED-5812-4D18-A6D7-081C4D8DE637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7269ED-5812-4D18-A6D7-081C4D8DE637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7269ED-5812-4D18-A6D7-081C4D8DE637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7269ED-5812-4D18-A6D7-081C4D8DE637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40B366E-6500-4AFD-82F5-5143A52EC128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40B366E-6500-4AFD-82F5-5143A52EC128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40B366E-6500-4AFD-82F5-5143A52EC128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40B366E-6500-4AFD-82F5-5143A52EC128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202718D5-0CED-4886-8072-419178C1C07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202718D5-0CED-4886-8072-419178C1C07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202718D5-0CED-4886-8072-419178C1C07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202718D5-0CED-4886-8072-419178C1C07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9C5CDE-95DD-4BCC-9CB7-97792FF25EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9C5CDE-95DD-4BCC-9CB7-97792FF25EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9C5CDE-95DD-4BCC-9CB7-97792FF25EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9C5CDE-95DD-4BCC-9CB7-97792FF25EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52961DB9-478D-45E2-AE79-0E19311A103C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52961DB9-478D-45E2-AE79-0E19311A103C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52961DB9-478D-45E2-AE79-0E19311A103C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52961DB9-478D-45E2-AE79-0E19311A103C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D069C18-4D22-4EE7-B2D6-EA9BC4213B1D} = {8A1F0D4E-7A36-4C7D-8C52-6745282D5936}
+		{CAEC8B9D-130A-4199-AB4C-25F3A93F4F04} = {B9BD042E-D905-4CAC-9F05-A174F8D5C846}
+		{3D7269ED-5812-4D18-A6D7-081C4D8DE637} = {4DD95892-8786-4714-8D06-A0A15218FE60}
+		{A40B366E-6500-4AFD-82F5-5143A52EC128} = {B3BEF060-9881-4756-A9F0-D71F68E05518}
+		{202718D5-0CED-4886-8072-419178C1C07E} = {1A79E20E-D15E-41AE-AAF8-9DBBF2BE99CA}
+		{AF9C5CDE-95DD-4BCC-9CB7-97792FF25EB5} = {BF51E592-630F-4FAC-A623-328ED2674372}
+		{52961DB9-478D-45E2-AE79-0E19311A103C} = {BF51E592-630F-4FAC-A623-328ED2674372}
+	EndGlobalSection
+EndGlobal
